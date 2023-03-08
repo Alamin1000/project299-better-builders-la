@@ -1,0 +1,595 @@
+/*-----------------------------------=========Main-Style-Sheet=========----------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('webfonts/MyriadPro-Bold.woff2') format('woff2'),
+      url('webfonts/MyriadPro-Bold.woff') format('woff'),
+      url('webfonts/MyriadPro-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro Cond';
+  src: url('webfonts/MyriadPro-Cond.woff2') format('woff2'),
+      url('webfonts/MyriadPro-Cond.woff') format('woff'),
+      url('webfonts/MyriadPro-Cond.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('webfonts/MyriadPro-Regular.woff2') format('woff2'),
+      url('webfonts/MyriadPro-Regular.woff') format('woff'),
+      url('webfonts/MyriadPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('webfonts/MyriadPro-Light.woff2') format('woff2'),
+      url('webfonts/MyriadPro-Light.woff') format('woff'),
+      url('webfonts/MyriadPro-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('webfonts/MyriadPro-Semibold.woff2') format('woff2'),
+      url('webfonts/MyriadPro-Semibold.woff') format('woff'),
+      url('webfonts/MyriadPro-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-Italic.woff') format('woff'),
+      url('webfonts/LucidaSans-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-Demi.woff') format('woff'),
+      url('webfonts/LucidaSans-Demi.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-DemiItalic.woff') format('woff'),
+      url('webfonts/LucidaSans-DemiItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-Italic_1.woff') format('woff'),
+      url('webfonts/LucidaSans-Italic_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-Demi_1.woff') format('woff'),
+      url('webfonts/LucidaSans-Demi_1.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans.woff') format('woff'),
+      url('webfonts/LucidaSans.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-DemiItalic_1.woff') format('woff'),
+      url('webfonts/LucidaSans-DemiItalic_1.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-Demi_2.woff') format('woff'),
+      url('webfonts/LucidaSans-Demi_2.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-DemiItalic_2.woff') format('woff'),
+      url('webfonts/LucidaSans-DemiItalic_2.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-Bold.woff') format('woff'),
+      url('webfonts/LucidaSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans-Demi_3.woff') format('woff'),
+      url('webfonts/LucidaSans-Demi_3.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans_1.woff') format('woff'),
+      url('webfonts/LucidaSans_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans_2.woff') format('woff'),
+      url('webfonts/LucidaSans_2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lucida Sans';
+  src: url('webfonts/LucidaSans_3.woff') format('woff'),
+      url('webfonts/LucidaSans_3.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift.woff') format('woff'),
+      url('webfonts/Bahnschrift.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_1.woff') format('woff'),
+      url('webfonts/Bahnschrift_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_2.woff') format('woff'),
+      url('webfonts/Bahnschrift_2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_3.woff') format('woff'),
+      url('webfonts/Bahnschrift_3.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_4.woff') format('woff'),
+      url('webfonts/Bahnschrift_4.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_5.woff') format('woff'),
+      url('webfonts/Bahnschrift_5.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_6.woff') format('woff'),
+      url('webfonts/Bahnschrift_6.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_7.woff') format('woff'),
+      url('webfonts/Bahnschrift_7.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_8.woff') format('woff'),
+      url('webfonts/Bahnschrift_8.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_9.woff') format('woff'),
+      url('webfonts/Bahnschrift_9.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_10.woff') format('woff'),
+      url('webfonts/Bahnschrift_10.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_11.woff') format('woff'),
+      url('webfonts/Bahnschrift_11.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_12.woff') format('woff'),
+      url('webfonts/Bahnschrift_12.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_13.woff') format('woff'),
+      url('webfonts/Bahnschrift_13.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Bahnschrift';
+  src: url('webfonts/Bahnschrift_14.woff') format('woff'),
+      url('webfonts/Bahnschrift_14.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Microsoft PhagsPa';
+  src: url('webfonts/MicrosoftPhagsPa.woff2') format('woff2'),
+      url('webfonts/MicrosoftPhagsPa.woff') format('woff'),
+      url('webfonts/MicrosoftPhagsPa.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+
+:root {
+  --theme__color1: #40A0A1;
+  --theme__color2: #67D2D3;
+  --myriad-pro: 'Myriad Pro';
+  --lucida-sans: 'Lucida Sans';
+  --lato: 'Lato', sans-serif;
+  --bahnschrift: 'Bahnschrift';
+  --microsoft-phagsPa: 'Microsoft PhagsPa';
+}
+*,::before,::after {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: #fff;
+  color: #000000;
+  overflow-x: hidden;
+  word-wrap: break-word;
+  word-break: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-family: var(--myriad-pro);
+}
+a, a:active, a:focus, a:active, a:hover {
+  text-decoration:none !important;
+  color: inherit;
+}
+input{
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a:hover,
+a:focus,
+input:focus,
+input:hover,
+select:focus,
+select:hover,
+select:active,
+textarea:focus,
+textarea:hover,
+button:focus {
+  outline: none;
+}
+::placeholder {
+  opacity: 1;
+}
+:focus::placeholder {
+  opacity: 0;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  table-layout: fixed; /* Prevents HTML tables from becoming too wide */
+  width: 100%;
+}
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+}
+iframe {
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+  font-weight: 700;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p{
+  font-size: 18px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+p:last-child{
+  margin: 0;
+}
+.main-wrap {
+  width: 100%;
+  overflow: hidden;
+}
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1615px;
+  }
+}
+
+
+
+/* header */
+.header-section {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+/* header-end */
+
+
+
+
+
+
+
+/* practice */
+.nav-a li {
+  display: inline-block;
+  background-color: red;
+  color: #fff;
+  margin: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.items {
+  display: flex;
+}
+.item {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  margin: 10px;
+}
+.parallax-window {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.parallax-window h1 {
+  font-size: 100px;
+  color: yellow;
+}
+
+
+
+
+
+
+
+/* ---offcanvas-css--- */
+.offcanvas-open {
+  font-size: 22px;
+  transition: 0.3s;
+}
+.offcanvas-open:hover {
+  color: #97A3AE;
+}
+.offcanvas-close {
+  color: var(--theme__color1);
+  position: absolute;
+  transition: 0.3s;
+  right: 25px;
+  top: 25px;
+}
+.offcanvas-close:hover {
+  color: #97A3AE;
+}
+.offcanvas-menu {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transform: translateX(-105%);
+  transition: 0.3s;
+}
+.offcanvas-menu.active {
+  transform: translate(0);
+}
+.offcanvas-menu .offmenu {
+  max-width: 250px;
+  min-width: 200px;
+  z-index: 5;
+  position: relative;
+  background: #d5dce2;
+  height: 100%;
+  padding: 50px 20px 40px;
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.offcanvas-menu .offmenu :-webkit-scrollbar {
+  display: none;
+}
+.offcanvas-menu ul li a {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  color: var(--theme__color1);
+  padding: 10px;
+}
+.dropdown-menu-custom ul {
+  background: #fff;
+  padding: 20px 0;
+}
+.dropdown-menu-custom ul li a {
+  color: #97A3AE;
+}
+.offcanvas-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.178);
+  z-index: 2;
+  transform: 0;
+  z-index: 900;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.offcanvas-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+/* ---offcanvas-css-end---*/
+
+/* --preloader-- */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  overflow: hidden;
+  background: #fff;
+}
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #73469B;
+  border-top-color: #e2eefd;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: animate-preloader 1s linear infinite;
+  animation: animate-preloader 1s linear infinite;
+}
+@-webkit-keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+@keyframes animate-preloader {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+/* --preloader-end-- */
