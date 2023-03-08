@@ -28,29 +28,16 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="fal fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">OUR PROJECTS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
@@ -59,8 +46,15 @@
       <main>
         <!-- hero-section -->
         <section class="hero-section">
+          <div class="hero-video-bg">
+            <video src="images/ship-in-sea.mp4" muted loop autoplay></video>
+          </div>
           <a href="index.html" class="hero-logo">
             <img src="images/logo.png" alt="" />
+          </a>
+
+          <a href="#" class="offcanvas-open d-lg-none">
+            <i class="fal fa-bars"></i>
           </a>
         </section>
         <!-- hero-section end -->
@@ -68,29 +62,31 @@
         <!-- header-section -->
         <header class="header-section">
           <div class="header-in">
-            <div class="header-section__inner">
-              <div class="header__left">
-                <a href="#" class="hl-button">
-                  <span class="txt">FREE CONSULTATION BOOK IT NOW</span>
-                  <div class="icon">
-                    <img src="images/calendar.png" alt="" />
-                  </div>
-                </a>
-                <a href="#" class="hl-button">
-                  <span class="txt">CALL US TODAY PHONE NUMBER</span>
-                  <div class="icon">
-                    <img src="images/phone.png" alt="" />
-                  </div>
-                </a>
-              </div>
-              <div class="main-menu">
-                <ul>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">ABOUT US</a></li>
-                  <li><a href="#">SERVICES</a></li>
-                  <li><a href="#">OUR PROJECTS</a></li>
-                  <li><a href="#">CONTACT US</a></li>
-                </ul>
+            <div class="container">
+              <div class="header-section__inner">
+                <div class="header__left">
+                  <a href="#" class="hl-button">
+                    <span class="txt">FREE CONSULTATION BOOK IT NOW</span>
+                    <div class="icon">
+                      <img src="images/calendar.png" alt="" />
+                    </div>
+                  </a>
+                  <a href="#" class="hl-button">
+                    <span class="txt">CALL US TODAY PHONE NUMBER</span>
+                    <div class="icon">
+                      <img src="images/phone.png" alt="" />
+                    </div>
+                  </a>
+                </div>
+                <div class="main-menu d-lg-block d-none">
+                  <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">OUR PROJECTS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -108,12 +104,12 @@
               </div>
 
               <div class="deserve__row row">
-                <div class="col-md-6">
+                <div class="col-lg-6">
                   <div class="deserve__row__image">
                     <img src="images/deserve.png" alt="deserve" />
                   </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6">
                   <div class="deserve__row__content">
                     <div class="cont-blk">
                       <h3 class="h3">
@@ -159,7 +155,7 @@
         <!-- better-section-end -->
 
         <!-- services-section -->
-        <section class="services-section">
+        <section class="services-section pb-0">
           <div class="container">
             <div class="services-section__inner">
               <div
@@ -172,7 +168,10 @@
                 <div class="col-lg-6">
                   <div class="services__row__content">
                     <div class="cont-blk">
-                      <h3 class="h3">WE DON’T SELL DREAMS. WE BUILD THEM.</h3>
+                      <h3 class="h3">
+                        WE DON’T SELL DREAMS. <br />
+                        WE BUILD THEM.
+                      </h3>
                       <ul class="ul-x">
                         <li>• Bathroom Remodeling</li>
                         <li>• Kitchen Remodeling</li>
@@ -194,7 +193,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 order-lg-0 order-first">
                   <div class="services__row__image">
                     <img src="images/services.png" alt="services" />
                   </div>
@@ -215,9 +214,9 @@
                 <h2 class="h2 mb-0">OUR PROJECTS</h2>
               </div>
 
-              <div class="projects__card__row">
+              <div class="projects__card__row row">
                 <!-- project-card -->
-                <div class="col-lg-3 col-md-2">
+                <div class="col-lg-4 col-md-6">
                   <div class="project-card">
                     <div class="project-card__title">
                       <h3 class="mb-0">BATHROOM REMODELING</h3>
@@ -229,7 +228,7 @@
                 </div>
                 <!-- project-card-end -->
                 <!-- project-card -->
-                <div class="col-lg-3 col-md-2">
+                <div class="col-lg-4 col-md-6">
                   <div class="project-card">
                     <div class="project-card__title">
                       <h3 class="mb-0">KITCHEN REMODELING</h3>
@@ -241,7 +240,7 @@
                 </div>
                 <!-- project-card-end -->
                 <!-- project-card -->
-                <div class="col-lg-3 col-md-2">
+                <div class="col-lg-4 col-md-6">
                   <div class="project-card">
                     <div class="project-card__title">
                       <h3 class="mb-0">STAIR CASES</h3>
@@ -253,7 +252,7 @@
                 </div>
                 <!-- project-card-end -->
                 <!-- project-card -->
-                <div class="col-lg-3 col-md-2">
+                <div class="col-lg-4 col-md-6">
                   <div class="project-card">
                     <div class="project-card__title">
                       <h3 class="mb-0">EXTERIOR REMODELING</h3>
@@ -265,7 +264,7 @@
                 </div>
                 <!-- project-card-end -->
                 <!-- project-card -->
-                <div class="col-lg-3 col-md-2">
+                <div class="col-lg-4 col-md-6">
                   <div class="project-card">
                     <div class="project-card__title">
                       <h3 class="mb-0">ADU’s & ROOM ADDITIONS</h3>
@@ -277,7 +276,7 @@
                 </div>
                 <!-- project-card-end -->
                 <!-- project-card -->
-                <div class="col-lg-3 col-md-2">
+                <div class="col-lg-4 col-md-6">
                   <div class="project-card">
                     <div class="project-card__title">
                       <h3 class="mb-0">HOME OFFICE REMODELING</h3>
@@ -342,16 +341,15 @@
                   <div class="col-12">
                     <div class="single-input-x">
                       <div class="input-x-outer">
-                        <input
-                          type="text"
+                        <textarea
                           class="input-x big"
                           placeholder="YOUR COMMENTS"
-                        />
+                        ></textarea>
                       </div>
                     </div>
                   </div>
                   <div class="col-12">
-                    <div class="single-input-x">
+                    <div class="single-input-x d-flex justify-content-center">
                       <button class="input-x-submit">SUBMIT</button>
                     </div>
                   </div>
@@ -367,7 +365,7 @@
           <div class="container">
             <div class="cta-section__inner">
               <div class="cta__row row">
-                <div class="col-md-4">
+                <div class="col-lg-4">
                   <div class="cta__single">
                     <h4>BETTER BUILDERS LA</h4>
                     <h5>
@@ -376,13 +374,13 @@
                     </h5>
                   </div>
                 </div>
-                <div class="col-md-4">
-                  <div class="cta__single text-center">
+                <div class="col-lg-4">
+                  <div class="cta__single">
                     <h4>FREE CONSULTATION</h4>
                     <h5>(877) 950-8111</h5>
                   </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4">
                   <div class="cta__single">
                     <h4>LICENSE NUMBER</h4>
                     <h5>Number Here</h5>

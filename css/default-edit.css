@@ -208,11 +208,27 @@
 
 
 /* important */
+/* important */
 #scrollUp {
-    background-image: url("../images/base/top.png");
     bottom: 20px;
     right: 20px;
     width: 38px;    /* Width of image */
     height: 38px;   /* Height of image */
     color: transparent;
+    font-size: 20px;
+}
+#scrollUp::before {
+    content: '\f077';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: var(--theme__color1);
+    font-weight: 300;
+    color: #fff;
+    font-family: "Font Awesome 5 Pro";
+    padding: 0 0 3px;
 }
