@@ -814,7 +814,7 @@ p:last-child{
 .project-card__title h3 {
   font-size: 34px;
   font-weight: 400;
-  font-weight: var(--bahnschrift);
+  font-family: var(--bahnschrift);
 }
 .project-card__image {
 
@@ -867,6 +867,7 @@ p:last-child{
   color: #9B9999;
   background: transparent;
   text-align: center;
+  font-family: var(--bahnschrift);
 }
 .input-x.big {
   min-height: 260px;
@@ -912,10 +913,11 @@ p:last-child{
   margin: 0 0 3px;
   font-size: 32.91px;
   line-height: 1.17;
+  font-weight: 900;
 }
 .cta__single h5 {
   font-size: 32.91px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1.17;
 }
 /* ---cta-section---end */
