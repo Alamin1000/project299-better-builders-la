@@ -900,7 +900,7 @@ p:last-child{
   padding: 158px 0;
 }
 .cta-section__inner {
-
+  padding: 0 0 0 9%;
 }
 
 .cta__row {
@@ -932,19 +932,19 @@ p:last-child{
 }
 
 .copy-right {
-  font-size: 25.6px;
-  gap: 7px;
-  font-weight: 400;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	font-size: 19px;
+	gap: 7px;
+	font-weight: 400;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .copy-right .txt {
 
 }
 .copy-right .in-logo {
-  width: 178px;
-  vertical-align: middle;
+	width: 125px;
+	vertical-align: middle;
 }
 /* ---footer-section---end */
